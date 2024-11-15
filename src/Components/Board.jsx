@@ -35,7 +35,7 @@ function Board() {
 
   return (
     <div>
-      <div className="status">{status}</div>
+      <div className="status text-red-600">{status}</div>
       <div className="board-row">
         {renderSquare(0)} {renderSquare(1)} {renderSquare(2)}
       </div>
